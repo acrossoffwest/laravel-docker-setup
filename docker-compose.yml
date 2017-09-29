@@ -20,7 +20,7 @@ services:
     networks:
       - server
     environment:
-      - VIRTUAL_HOST=laravel.dev,*.laravel.dev
+      - VIRTUAL_HOST=${DOMAINS}
 
   php:
     image: zurbaev/php71-common
