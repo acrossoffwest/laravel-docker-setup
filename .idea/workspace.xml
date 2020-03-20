@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4257851-704a-442d-a4fa-70d800d4a191" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cron.d/crontab_schedule" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_dumps/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/crontab_schedule" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/custom.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supervisor/conf.d/laravel-worker.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/supervisor/supervisord.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/example.default.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1505901571718</updated>
       <workItem from="1505901572936" duration="339000" />
-      <workItem from="1584730241435" duration="476000" />
+      <workItem from="1584730241435" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed">
       <created>1505901894853</created>
