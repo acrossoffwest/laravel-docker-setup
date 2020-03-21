@@ -17,7 +17,7 @@ services:
       - "${NGINX_CONF_DIR}:/etc/nginx/conf.d"
     depends_on:
       - nginx-proxy
-      - phpmyadmin
+      # - phpmyadmin
     networks:
       - server
       - database
