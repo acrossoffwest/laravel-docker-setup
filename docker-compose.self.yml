@@ -25,7 +25,7 @@ services:
       - VIRTUAL_HOST=${DOMAINS},${PMA_DOMAIN}
 
   php:
-    build: ./php
+    image: acrossoffwest/docker-settings-alpine-php:8.0.6.1
     volumes:
       - "${APP_DIR}:/var/www/html"
       - "./supervisor:/etc/supervisor"
@@ -48,17 +48,6 @@ services:
       MYSQL_PASSWORD: "${DB_PASSWORD}"
     networks:
       - database
-
-#  phpmyadmin:
-#    image: phpmyadmin/phpmyadmin
-#    expose:
-#      - "80"
-#    environment:
-#      PMA_HOST: mysql
-#    depends_on:
-#      - mysql
-#    networks:
-#      - database
 
   redis:
     image: redis:5.0.4
