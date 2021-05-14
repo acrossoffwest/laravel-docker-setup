@@ -8,13 +8,12 @@ services:
       - "${NGINX_CONF_DIR}:/etc/nginx/conf.d"
     depends_on:
       - php
-      # - phpmyadmin
     networks:
       - server
       - nginx-proxy-network
       - database
     environment:
-      - VIRTUAL_HOST=${DOMAINS},${PMA_DOMAIN}
+      - VIRTUAL_HOST=${DOMAINS}
       - 'COMPOSER_AUTH={"github-oauth": {"github.com": "${COMPOSER_GITHUB_AUTH_TOKEN}"}}'
 
   php:
