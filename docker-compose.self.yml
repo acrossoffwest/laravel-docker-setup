@@ -36,6 +36,8 @@ services:
     networks:
       - database
       - server
+    environment:
+      - 'COMPOSER_AUTH={"github-oauth": {"github.com": "${COMPOSER_GITHUB_AUTH_TOKEN}"}}'
 
   mysql:
     image: mysql:5.7

@@ -15,6 +15,7 @@ services:
       - database
     environment:
       - VIRTUAL_HOST=${DOMAINS},${PMA_DOMAIN}
+      - 'COMPOSER_AUTH={"github-oauth": {"github.com": "${COMPOSER_GITHUB_AUTH_TOKEN}"}}'
 
   php:
     image: acrossoffwest/docker-settings-alpine-php:8.0.6.1
@@ -28,6 +29,8 @@ services:
     networks:
       - database
       - server
+    environment:
+      - 'COMPOSER_AUTH={"github-oauth": {"github.com": "${COMPOSER_GITHUB_AUTH_TOKEN}"}}'
 
   mysql:
     image: mysql:5.7
