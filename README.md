@@ -1,3 +1,4 @@
+# [DEPRECATED]
 # Docker settings for Laravel project
 
 You can use this docker settings with:
