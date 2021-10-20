@@ -1,9 +1,8 @@
-# [DEPRECATED]
-# Docker settings for Laravel project
+# Laravel Docker Setup
 
 You can use this docker settings with:
 
-- [this repository](https://github.com/acrossoffwest/mulptilpe-nginx-proxy-settings-for-docker) for that you should use `docker-compose.yml`
+- [this repository](https://github.com/acrossoffwest/mproxy-docker-setup) for that you should use `docker-compose.yml`
 
 - [jwilder/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) for that you should use `docker-compose.self.yml.`
 
