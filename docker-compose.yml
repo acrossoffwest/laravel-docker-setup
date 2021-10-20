@@ -14,8 +14,6 @@ services:
       - "./cron.d:/etc/cron.d"
       - "${DEFAULT_PHP_INI:-./php/default.custom.ini}:/usr/local/etc/php/conf.d/custom.ini"
       - "${DEFAULT_PHP_FPM_WWW_CONF:-./php/default.www.conf}:/usr/local/etc/php-fpm/conf.d/custom.ini"
-    depends_on:
-      - mysql
     networks:
       - database
       - server
