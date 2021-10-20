@@ -17,6 +17,7 @@ services:
     networks:
       - database
       - server
+      - reverseproxy_default
     environment:
       - VIRTUAL_HOST=${DOMAINS}
       - LETSENCRYPT_HOST=${DOMAINS}
